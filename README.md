@@ -1,4 +1,4 @@
-Save a videoclip at a specific timestamp from a camera recorded on a Ubiquiti UniFi Cloudkey. The recording time before and after the timestamp can be set.
+A bash script to save a videoclip at a specific timestamp from a camera recorded on a Ubiquiti UniFi Cloudkey. The recording time before and after the timestamp can be set.
 The timestamp is obtained via MQTT (epoch time) and must be published with retain flag is true. The retain flag is cleared by the script after a clip has been saved.
 This script can be scheduled every minute. In that case, a maximum of one clip per minute can be saved.
 
