@@ -3,3 +3,5 @@ The timestamp is obtained via MQTT (epoch time) and must be published with retai
 This script can be scheduled every minute. In that case, a maximum of one clip per minute can be saved.
 
 To select the required camera go to Unify Protect in your webbrowser. Select the camera and take note of the url.
+
+! Unifi has now enabled 2FA. For this script to work you need to create an account with the option 'Restrict to local Access' enabled. Use this account in het script settings.
